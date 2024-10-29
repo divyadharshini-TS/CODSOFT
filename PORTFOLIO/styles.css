@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+
+#about {
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+}
+
+.about-container img {
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+#about p {
+    max-width: 600px;
+}
+
+#skills {
+    padding: 2rem;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+}
+
+#projects {
+    padding: 2rem;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-item {
+    width: 45%;
+    margin: 10px;
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.project-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.project-item h3 {
+    margin-top: 0;
+}
+
+
+#resume {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+#resume a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#contact {
+    padding: 2rem;
+    text-align: center;
+}
+
+#contact p {
+    margin: 5px 0;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
